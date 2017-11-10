@@ -12,7 +12,7 @@ public class Read {
         while ((lenth = fileInputStream.read(bytes) )!= -1) {
             System.out.println(new String(bytes,0,lenth));
         }
-
+        System.out.println("test git");
 
     }
 }
